@@ -1,0 +1,10 @@
+language: node_js
+
+# http://docs.travis-ci.com/user/database-setup/#RabbitMQ
+services:
+  - rabbitmq
+
+# use --online so changes must apply to running broker
+# https://www.rabbitmq.com/man/rabbitmq-plugins.1.man.html
+before_script:
+  - sudo rabbitmq-plugins enable --online rabbitmq_consistent_hash_exchange
