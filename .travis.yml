@@ -1,5 +1,16 @@
 language: node_js
 
+node_js:
+  - "node"
+  - "4.1"
+  - "4.0"
+  - "0.12"
+  - "0.11"
+  - "0.10"
+  - "0.8"
+  - "0.6"
+  - "iojs"
+
 # http://docs.travis-ci.com/user/database-setup/#RabbitMQ
 services:
   - rabbitmq
