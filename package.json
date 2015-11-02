@@ -3,7 +3,7 @@
   "version": "0.2.9-0",
   "description": "Abstractions to simplify working with the wascally wabbitMQ",
   "main": "src/index.js",
-  "repository": "https://github.com/leankit-labs/wascally",
+  "repository": "https://github.com/joseph-onsip/wascally",
   "scripts": {
     "test": "gulp test-and-exit"
   },
