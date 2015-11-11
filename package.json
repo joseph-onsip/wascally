@@ -1,5 +1,5 @@
 {
-  "name": "onsip-wascally",
+  "name": "joseph-wascally",
   "version": "0.2.9-1",
   "description": "Abstractions to simplify working with the wascally wabbitMQ",
   "main": "src/index.js",
